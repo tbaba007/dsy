@@ -1,12 +1,6 @@
 
-interface translationsProps{
-    language:'En'|'De',
-    translation:{
-        key:string;
-        value:string
-    }[]
-}
-export const translations:translationsProps[]=[
+
+export const translations=[
     {
        language:'De',
        translation:[
